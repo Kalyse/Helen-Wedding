@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link href='http://fonts.googleapis.com/css?family=Lovers+Quarrel|Lobster+Two' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+    <div class='preface-names'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-xs-12 couple-names-container'>
+                    <div class="couple-name first-name resize">
+                        <h1>Helen</h1>
+                        <h2>Atkinson</h2>
+                    </div>
+                    <div class="mid"><span>&amp;</span></div>
+                    <div class="couple-name last-name resize">
+                        <h1>Nick</h1>
+                        <h2>Henson</h2>
+                    </div>
+                    <!--
+                    <img class='img-rounded img-profile' src="images/hell.jpg" />
+                    <img class='img-rounded img-profile' style="margin-left:10px" src="images/nick.jpg" />
+                    -->
+                    <div class="pull-right ribbon-wrapper hidden-xs">
+                        <div class="ribbon secondary-featured-font">
+                            <div class="ribbon-stitches-top"></div>
+                                <strong class="ribbon-content"><h1 class='secondary-featured-font'>We're getting married!</h1></strong>
+                            <div class="ribbon-stitches-bottom"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-red">
+      <div class="container">        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand hidden-xs" href="#">We're Getting Married</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Our Story</a></li>            
+            <li><a href="#about">Travel Information</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wedding Schedule <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Pre-Wedding Boat Trip</a></li>
+                <li><a href="#">Accommodation</a></li>
+                <li><a href="#">Wedding Day</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Please RSVP</li>
+                <li><a href="#rsvp">RSVP</a></li>                
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron featured">
+      <div class="container wedding-feature">
+            <div class="cta-container">
+                <div id="the_countdown"></div>
+                <a href="#rsvp" class="btn btn-warning pull-right">I Need To RSVP</a>
+            </div>
+            <script>
+                jQuery(document).ready(function($){
+                    $('#the_countdown').countdown({
+                        until: new Date("February 22, 2015 11:13:00"),
+                        timezone: +0            });
+                });
+            </script>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-4  person-card">
+                    <div class="person-header">
+                        <img class='img-rounded img-profile pull-right' src="images/hell.jpg" />
+                   
+                        <h2 class='secondary-featured-font featured-color'>Helen</h2>
+                        <p>Atkinson</p>
+
+                    </div>
+                    <div class="person-intro">
+                        <p>Welcome to our Website! We are really excited to share our wedding experience with you all</p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-4 col-sm-offset-1 person-card">
+                    <div class="person-header">
+                        <img class='img-rounded img-profile pull-right' src="images/nick.jpg" />
+                        <h2 class='secondary-featured-font featured-color'>Nick</h2>
+                        <p>Henson</p>
+                    </div>
+                    <div class="person-intro">
+                        <p>Helen said I needed to give a 30 word welcome so I had to pad it out a little bit with filler text. Welcome.</p>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-sm-8">
+          <h2>A Special Welcome</h2>
+            <p>Hey Everyone! A very big welcome to the our <strong>wedsite!</strong></p>
+
+            <p>We hope that all of you will be able to make it to our wedding! For those of you who wouldn't be able to make it, we thought this would be a great way for us to share all of our experiences with you.</p>
+
+            <p>We've created this space as a special way for friends and family to participate and celebrate with us - anytime, from anywhere. We can't wait to celebrate our wedding day with you all! Until then, enjoy exploring our site!</p>
+
+            <p>In addition, while you are here, please sign our guestbook!.</p>
+
+            <p>We are so grateful for all the positive influences in our lives!  Thank you to all our friends and family for your love and support over the years.</p>
+
+            <p>
+            Thanks for sharing our joy!
+            <br />
+            <strong>Helen, Nick &amp; Dylan</strong>
+            </p>
+          
+        </div>
+        <div class="col-sm-4">
+          <h2>The Wedding</h2>
+          <p>We are having our wedding in Koh Samui. We would love if you could join us on our special day. Please RSVP to let us know if you are able to join.</p>
+          <p><a class="btn btn-default" href="#rsvp">I Need to RSVP</a></p>
+          <img class="img-responsive img-thumbnail" src="images/saf.jpg" />
+        </div>
+
+
+      </div>
+
+      <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div id="container_masonry">
+                    <div class="item col-sm-4">
+                        <img class="img-responsive img-thumbnail" src="images/1087_106330290253_7933_n.jpg" />
+                    </div>
+                    <div class="item col-sm-4">
+                        <img class="img-responsive img-thumbnail" src="images/240534_214066201952038_419863_o.jpg" />
+                    </div>
+                     <div class="item col-sm-3">
+                        <img class="img-responsive img-thumbnail" src="images/hair styling in africa.jpg" />
+                    </div>
+                     <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/Koh-Samui-Wedding-Villas.jpg" />
+                    </div>
+                     <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/swimming.jpg" />
+                    </div>
+                    <div class="item col-sm-4">
+                        <img class="img-responsive img-thumbnail" src="images/unnameda.png" />
+                    </div>
+                      <div class="item col-sm-3">
+                        <img class="img-responsive img-thumbnail" src="images/lake como.jpg" />
+                    </div>
+                     <div class="item col-sm-3">
+                        <img class="img-responsive img-thumbnail" src="images/thailand.jpg" />
+                    </div>
+
+
+                    
+                    <div class="item col-sm-12">
+                        <img class="img-responsive img-thumbnail" src="images/photo website(2).jpg" />
+                    </div>
+                    <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/kohsamui-villakalyana-01.jpg" />
+                    </div>
+                    <div class="item col-sm-4">
+                        <img class="img-responsive img-thumbnail" src="images/ice bar.jpg" />
+                    </div>
+                    <div class="item col-sm-3">
+                        <img class="img-responsive img-thumbnail" src="images/halloween.jpg" />
+                    </div>
+                    <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/256855_10150653300255254_1918623_o.jpg" />
+                    </div>
+                    <div class="item col-sm-4">
+                        <img class="img-responsive img-thumbnail" src="images/1003115_10152916539340254_1885530717_n.jpg" />
+                    </div>
+                    <div class="item col-sm-3">
+                        <img class="img-responsive img-thumbnail" src="images/946265_10152990057660034_1065509218_n.jpg" />
+                    </div>
+                    <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/305389_10150792901270034_84255442_n.jpg" />
+                    </div>
+                     <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/laying on the grass.jpg" />
+                    </div>
+
+                    <div class="item col-xs-6 col-sm-4  person-card">
+                        <div class="person-header">
+                            <img class="img-rounded img-profile pull-right" src="images/hell.jpg">
+                       
+                            <h2 class="secondary-featured-font featured-color">Helen</h2>
+                            <p>Atkinson</p>
+
+                        </div>
+                        <div class="person-intro">
+                            <p>Welcome to our Website! We are really excited to share our wedding experience with you all</p>
+                        </div>
+                    </div>
+
+                     <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/photo tuk tuk.jpg" />
+                    </div>
+
+                     
+
+                     <div class="item col-sm-2">
+                        <img class="img-responsive img-thumbnail" src="images/kayak.jpg" />
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px">
+            <div class="col-sm-6" id="rsvp">
+                <div id="wufoo-s1806r6m1eywko2">
+                    Fill out my <a href="https://rentivo.wufoo.com/forms/s1806r6m1eywko2">online form</a>.
+                </div>
+                <script type="text/javascript">var s1806r6m1eywko2;(function(d, t) {
+                    var s = d.createElement(t), options = {
+                    'userName':'rentivo', 
+                    'formHash':'s1806r6m1eywko2', 
+                    'autoResize':true,
+                    'height':'588',
+                    'async':true,
+                    'host':'wufoo.com',
+                    'header':'show', 
+                    'ssl':true};
+                    s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+                    s.onload = s.onreadystatechange = function() {
+                    var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                    try { s1806r6m1eywko2 = new WufooForm();s1806r6m1eywko2.initialize(options);s1806r6m1eywko2.display(); } catch (e) {}};
+                    var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                    })(document, 'script');
+                </script>
+            </div>
+
+            <div class="item col-sm-4 col-sm-offset-1">
+                        <img class="img-responsive img-thumbnail" src="images/photo.jpg" />
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div class="container">
+      <footer>
+        <p>❤ We're getting married</p>
+      </footer>
+    </div>
+    <!-- /container -->        
+        
+        <script type="text/javascript" src="js/countdown/jquery.plugin.js"></script>
+        <script type="text/javascript" src="js/countdown/jquery.countdown.js"></script>
+        <script type="text/javascript" src="js/vendor/masonry.pkgd.min.js"></script>
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+
+            var $container = $('#container_masonry');
+            // initialize
+            $container.masonry({
+              columnWidth: 10,
+              itemSelector: '.item'
+            });
+
+        </script>
+    </body>
+</html>

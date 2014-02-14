@@ -1,0 +1,376 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+
+.featured-color {
+  color: #d34242;
+}
+
+.primary-featured-font {
+  font-family: "Lovers Quarrel", cursive;
+}
+
+.secondary-featured-font {
+  font-family: "Lobster Two", cursive;
+}
+
+body {
+  padding: 0;
+  background: whiteSmoke;
+}
+
+p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #696868;
+}
+
+.preface-names {
+  background: #FFF;
+}
+
+.preface-names .img-profile {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.couple-names-container .couple-name {
+  display: inline-block;
+  float: left;
+  margin: 10px 0 0px 0px;
+}
+
+.couple-names-container .couple-name h1 {
+  padding: 0;
+  margin: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 70px;
+  line-height: 70px !important;
+  color: #b72b2b;
+  text-shadow: 2px 2px 0px 0px #000;
+  text-shadow: 2px 2px 0px #fff, 4px 4px 0px #cccccc ;
+}
+
+.couple-names-container .couple-name h2 {
+  margin-top: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 24px;
+  font-weight: normal;
+  color: #8e2121;
+  text-indent: 20px;
+  text-shadow: 2px 2px 0px #f6f5ec ;
+  text-transform: uppercase;
+}
+
+.couple-names-container .mid {
+  float: left;
+  margin: 40px 10px 0 30px ;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.couple-names-container .mid span {
+  padding: 5px 10px;
+  margin: 5px 0 15px 3px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  background-color: #d34242;
+  border: 3px solid rgba(235, 235, 235, 0.5);
+  -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+          border-radius: 100px;
+  background-clip: padding-box;
+}
+
+.navbar {
+  margin-bottom: 0;
+  -webkit-border-top-right-radius: 0;
+          border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+          border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar.navbar-red {
+  color: #fff;
+  background: #d34242;
+}
+
+.navbar.navbar-red li.active a,
+.navbar.navbar-red li.open > a {
+  background: #c42d2d;
+}
+
+.navbar.navbar-red ul.navbar-nav > li > a {
+  color: #fff;
+  text-shadow: none;
+}
+
+.navbar.navbar-red ul.navbar-nav > li > a:hover {
+  background: #d75252;
+}
+
+.img-profile {
+  height: 114px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 60px;
+     -moz-border-radius: 60px;
+          border-radius: 60px;
+}
+
+.jumbotron {
+  height: 600px;
+  background: url(../images/island_view_1920a.jpg) no-repeat;
+  background-position: 48% 37%;
+  background-size: 100% auto;
+}
+
+.container.wedding-feature {
+  position: relative;
+  height: 600px;
+}
+
+.container.wedding-feature .row .person-card {
+  height: 240px;
+  padding: 20px 20px;
+  margin-top: 320px;
+  background: whiteSmoke;
+  border-top: 5px solid #d34242;
+}
+
+.container.wedding-feature .row .person-card .person-header {
+  margin-top: 20px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.container.wedding-feature .person-intro {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #888;
+}
+
+.getting-merried {
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-image: url(../images/getting-merried-bg.png), url(../images/getting-merried-bg2.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.getting-merried p {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  color: #6f6f6f;
+}
+
+.ribbon-wrapper {
+  position: relative;
+  width: 300px;
+  padding: 20px;
+}
+
+.ribbon {
+  position: absolute;
+  width: 300px;
+  font-family: "Lobster Two", cursive;
+  font-size: 20px!important;
+  text-align: center;
+  background: #d64b4b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#d64b4b), to(#ab2c2c));
+  background: -webkit-linear-gradient(top, #d64b4b, #ab2c2c);
+  background: -moz-linear-gradient(top, #d64b4b, #ab2c2c);
+  background: -ms-linear-gradient(top, #d64b4b, #ab2c2c);
+  background: -o-linear-gradient(top, #d64b4b, #ab2c2c);
+  background-image: -ms-linear-gradient(top, #d64b4b 0%, #ab2c2c 100%);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+     -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+}
+
+.ribbon h1 {
+  padding: 15px 10px;
+  margin: 0;
+  font-size: 25px!important;
+  color: #801111;
+  text-shadow: #d65c5c 0 1px 0;
+}
+
+.ribbon:before,
+.ribbon:after {
+  position: absolute;
+  bottom: -1em;
+  z-index: -1;
+  display: block;
+  border: 1.5em solid #c23a3a;
+  content: '';
+}
+
+.ribbon:before {
+  left: -2em;
+  border-left-color: transparent;
+  border-right-width: 1.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+     -moz-box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+
+.ribbon:after {
+  right: -2em;
+  border-right-color: transparent;
+  border-left-width: 1.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+     -moz-box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+          box-shadow: rgba(0, 0, 0, 0.4) -1px 1px 1px;
+}
+
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+  position: absolute;
+  bottom: -1em;
+  display: block;
+  border-color: #871616 transparent transparent transparent;
+  border-style: solid;
+  content: '';
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+
+.ribbon-stitches-top {
+  margin-top: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+     -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0px 2px rgba(255, 255, 255, 0.5);
+}
+
+.ribbon-stitches-bottom {
+  margin-bottom: 2px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 0px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0px 2px rgba(255, 255, 255, 0.3);
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*  $Countdown Section
+/*-----------------------------------------------------------------------------------*/
+
+#the_countdown {
+  position: relative;
+  left: 20px;
+  float: right;
+  overflow: hidden;
+  overflow: visible;
+}
+
+.cta-container {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.cta-container a {
+  clear: both;
+  font-family: "Lobster Two", cursive;
+  font-size: 1.1em;
+  background: #d34242;
+  border: 1px solid #a72727;
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.cta-container a:hover {
+  background: #d85757;
+  border: 1px solid #cf3131;
+}
+
+.countdown-section {
+  position: relative;
+  display: inline-block;
+  max-width: 400px;
+  max-height: 160px;
+  min-width: 125px;
+  padding: 20px 0 20px 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  overflow: visible;
+  letter-spacing: -1px;
+  color: #fff;
+  text-transform: uppercase;
+  background: #d34242;
+  -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.countdown-section:first-child:before {
+  display: none;
+}
+
+.countdown-amount {
+  position: relative;
+  display: block;
+  float: left;
+  width: 100%;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: "Lobster Two", cursive;
+  font-size: 40px;
+  line-height: 1;
+  text-align: left;
+}
+
+.countdown-period {
+  float: left;
+  font-size: 14px;
+  margin-bottm: 0;
+}
+
+#container_masonry img {
+  margin: 5px;
+}
+
+.img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
