@@ -124,8 +124,19 @@ p {
 	background: url(../images/island_view_1920a.jpg) no-repeat;
 	background-position: 48% 37%;
 	background-size: 100% auto;
-}
+	&.content {
+		height: inherit;
+		background-position: 0 0 !important;
+		.container.wedding-feature {
+			height: inherit !important;
 
+		}
+	}
+}
+li.blank {
+	list-style:none;
+	list-style-image: none;
+}
 .container.wedding-feature {
 	position: relative;
 	height: 600px;
@@ -136,6 +147,13 @@ p {
 		height: 240px;
 		padding: 20px 20px;
 		background: whiteSmoke;
+		&.general {
+			height: auto;
+			margin-top: 0px;
+		}
+		&.no-border {
+			border-top: none;
+		}
 		.person-header {
 			border-bottom: 1px solid #cdcdcd;
 			margin-top: 20px;
@@ -340,4 +358,10 @@ p {
 
 
 
-
+.content-wrapper {
+	background: whiteSmoke;
+	margin-top: 80px;
+	border-top: 5px solid @featureColor;
+	padding: 20px 20px;
+	background: whiteSmoke;
+}

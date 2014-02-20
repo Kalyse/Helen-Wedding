@@ -151,6 +151,20 @@ p {
   background-size: 100% auto;
 }
 
+.jumbotron.content {
+  height: inherit;
+  background-position: 0 0 !important;
+}
+
+.jumbotron.content .container.wedding-feature {
+  height: inherit !important;
+}
+
+li.blank {
+  list-style: none;
+  list-style-image: none;
+}
+
 .container.wedding-feature {
   position: relative;
   height: 600px;
@@ -162,6 +176,15 @@ p {
   margin-top: 320px;
   background: whiteSmoke;
   border-top: 5px solid #d34242;
+}
+
+.container.wedding-feature .row .person-card.general {
+  height: auto;
+  margin-top: 0;
+}
+
+.container.wedding-feature .row .person-card.no-border {
+  border-top: none;
 }
 
 .container.wedding-feature .row .person-card .person-header {
@@ -373,4 +396,11 @@ p {
   display: block;
   height: auto;
   max-width: 100%;
+}
+
+.content-wrapper {
+  padding: 20px 20px;
+  margin-top: 80px;
+  background: whiteSmoke;
+  border-top: 5px solid #d34242;
 }
