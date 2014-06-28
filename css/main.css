@@ -10,7 +10,7 @@
   ---------------------------------------------------*/
 
 .featured-color {
-  color: #d34242;
+  color: #8A5882;
 }
 
 .primary-featured-font {
@@ -53,7 +53,7 @@ p {
   font-family: "Lobster Two", cursive;
   font-size: 70px;
   line-height: 70px !important;
-  color: #b72b2b;
+  color: #8A5882;
   text-shadow: 2px 2px 0px 0px #000;
   text-shadow: 2px 2px 0px #fff, 4px 4px 0px #cccccc ;
 }
@@ -84,7 +84,7 @@ p {
   font-weight: 500;
   color: #ffffff;
   text-align: center;
-  background-color: #d34242;
+  background-color: #8A5882;
   border: 3px solid rgba(235, 235, 235, 0.5);
   -webkit-border-radius: 100px;
      -moz-border-radius: 100px;
@@ -117,7 +117,7 @@ p {
 
 .navbar.navbar-red {
   color: #fff;
-  background: #d34242;
+  background: #8A5882;
 }
 
 .navbar.navbar-red li.active a,
@@ -175,7 +175,7 @@ li.blank {
   padding: 20px 20px;
   margin-top: 320px;
   background: whiteSmoke;
-  border-top: 5px solid #d34242;
+  border-top: 5px solid #8A5882;
 }
 
 .container.wedding-feature .row .person-card.general {
@@ -334,7 +334,7 @@ li.blank {
   clear: both;
   font-family: "Lobster Two", cursive;
   font-size: 1.1em;
-  background: #d34242;
+  background: #8A5882;
   border: 1px solid #a72727;
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
@@ -359,7 +359,7 @@ li.blank {
   letter-spacing: -1px;
   color: #fff;
   text-transform: uppercase;
-  background: #d34242;
+  background: #8A5882;
   -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
@@ -402,5 +402,5 @@ li.blank {
   padding: 20px 20px;
   margin-top: 80px;
   background: whiteSmoke;
-  border-top: 5px solid #d34242;
+  border-top: 5px solid #8A5882;
 }
